@@ -7,7 +7,7 @@ st.set_page_config(
 
 text_placeholder = st.empty()
 
-text = "Transformación de HS y Tácticos"
+text = "TRANSFORMACIÓN DE HS Y TÁCTICOS"
 
 for i in range(len(text)+1):
     text_placeholder.markdown(f"<h1>{text[:i]}<h1>", unsafe_allow_html=True)
