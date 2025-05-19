@@ -17,7 +17,7 @@ archivo = st.file_uploader("Sube tu archivo Excel", type=["xlsx","xls"])
 if archivo:
     if st.button("Transformar data"):
         df_y_total = []
-        df_tactico = pd.read_excel(archivo)
+        df_tactico = pd.read_excel(archivo, engine="openpyxl")
         df_tactico = df_tactico.dropna(subset='SKU')
         df_y_total = []
         SKUS = df_tactico['SKU'].unique()

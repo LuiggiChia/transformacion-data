@@ -16,7 +16,7 @@ archivo = st.file_uploader("Sube tu archivo Excel", type=["xlsx","xls"])
 
 if archivo:
     if st.button("Transformar data"):  
-        df_total = pd.read_excel(archivo)
+        df_total = pd.read_excel(archivo, engine="openpyxl")
         df_y_total = []
         SKUS = df_total['SKU'].unique()
         for x in SKUS:
