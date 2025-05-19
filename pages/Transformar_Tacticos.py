@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 import warnings
 warnings.filterwarnings('ignore')
-
 
 st.set_page_config(
     page_icon = "💯"
