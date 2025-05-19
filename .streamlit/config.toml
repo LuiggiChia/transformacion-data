@@ -1,0 +1,7 @@
+[theme]
+base="dark"
+primaryColor="#64ffda"
+backgroundColor="#212946"  # Fondo oscuro principal
+secondaryBackgroundColor="#1a1a2e"  # Fondo de paneles y sidebars
+textColor="#ffffff"  # Texto blanco
+font="monospace"
