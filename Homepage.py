@@ -2,7 +2,7 @@ import streamlit as st
 import time
 
 st.set_page_config(
-    page_icon = "💯"
+    page_icon = "📊"
 )
 
 text_placeholder = st.empty()

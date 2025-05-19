@@ -4,14 +4,14 @@ import warnings
 warnings.filterwarnings('ignore')
 
 st.set_page_config(
-    page_icon = "💯"
+    page_icon = "📊"
 )
 
 st.markdown("<h1 style='text-align: center;color:#ccd6f6'>TÁCTICOS</h1>", unsafe_allow_html=True)
 
 st.markdown("<h4 style='color: #a5a5a6;text-align: center;'>Subir Tacticos</h4>", unsafe_allow_html=True)
 with st.expander("Recuerda que el archivo Excel debe contar con los siguientes campos..."):
-    st.write("FECHA DE INICIO | FECHA FIN | SKU | DESCRIPCIÓN | TOP DESPLIEGUE MEDIOS 'X'")
+    st.write("CAMPAÑA | FECHA DE INICIO | FECHA FIN | SKU | DESCRIPCIÓN | TOP DESPLIEGUE MEDIOS 'X'")
 archivo = st.file_uploader("Sube tu archivo Excel", type=["xlsx","xls"])
 
 if archivo:
