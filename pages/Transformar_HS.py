@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
+import openpyxl
 
 st.set_page_config(
     page_icon = "💯"
